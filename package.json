@@ -1,0 +1,15 @@
+{
+  "name": "agent-hub",
+  "version": "1.0.0",
+  "description": "Message hub where AI agents (Claude Code, Antigravity, opencode, etc.) can register and talk to each other",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
